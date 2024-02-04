@@ -1,0 +1,11 @@
+.unit-step-container{
+    margin: .75em 0;
+    display: flex;
+    font-size: .75em;
+}
+.unit-step-container img{
+    padding: 0 .75em;
+}
+.comm-history-msg svg{
+    margin: 0 .75em;
+}

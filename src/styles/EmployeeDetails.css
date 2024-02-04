@@ -1,0 +1,91 @@
+.component-container {
+  font-size: 0.9em;
+  background-color: #fff;
+  padding: 0 1.3em;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 5px;
+}
+.employee-detail-container {
+  border-bottom: 2px solid #ccc;
+}
+.details {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 0.75em;
+  margin: 1.5em 0;
+}
+.esc-heading {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.esc-heading button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font-weight: inherit;
+    width: fit-content;
+    margin: 0 auto;
+}
+.esc-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1.5em;
+    padding: 1.5em 0;
+}
+.esc-details-item{
+  display: flex;
+  justify-content: space-between;
+}
+.esc-details-item select{
+  border: 2px solid #ccc;
+  display: inline-block;
+  width: 40%;
+  height: 2.5em;
+  margin: 0 5em;
+}
+.comment-item textarea{
+  border: 2px solid #ccc;
+  display: inline-block;
+  width: 40%;
+  margin: 0 5em;
+  resize: none;
+}
+.esc-cta-buttons{
+  margin: 0 5em;
+  place-self: end;
+}
+.esc-cta-buttons button{
+  background-color: transparent;
+  border: none;
+}
+.esc-cta-buttons button:nth-child(1){
+  padding: .35em 1.5em;
+  margin: 0 1.5em;
+  background-color: #6535d9;
+  color: white;
+  border-radius: 5px;
+}
+.esc-cta-buttons button:nth-child(2){
+  font-weight: 600;
+  text-decoration: underline;
+}
+.heading {
+  color: #6535d9;
+  font-weight: 600;
+  padding: 1em 0;
+}
+
+.accent-color {
+  color: #73a3ff;
+}
+
+.bold {
+  font-weight: 600;
+}
+.center {
+  display: flex;
+  align-items: center;
+}

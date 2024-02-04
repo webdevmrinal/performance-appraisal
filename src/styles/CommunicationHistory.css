@@ -1,0 +1,30 @@
+.comm-history-container {
+  background-color: #fff;
+  margin: 2em 0;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 5px;
+
+}
+.comm-history-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 1.5em;
+  color: #6535d9;
+  font-size: 0.9em;
+  font-weight: 600;
+  border-bottom: 1px solid #d8d8d8;
+}
+.comm-history-header > span {
+  color: inherit;
+  font-size: inherit;
+  font-size: inherit;
+}
+.comm-history-header > button {
+    display: flex;
+    gap: .5em;
+    align-items: center;
+  border: none;
+  background-color: transparent;
+  font-weight: inherit;
+}

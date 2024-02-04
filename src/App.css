@@ -1,0 +1,19 @@
+.escalation-details-container{
+  padding: 1em;
+  height: 100%;
+  width: 100%;
+  background-color: #ebf2fc;
+}
+.back-button{
+  padding: .5em .75em .5em 0;
+  font-size: 1.1em;
+  font-weight: 600;
+  font-size: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .4em;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
