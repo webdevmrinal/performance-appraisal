@@ -2,7 +2,6 @@
   background-color: #fff;
   margin: 2em 0;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 0px 5px;
-
 }
 .comm-history-header {
   width: 100%;
@@ -21,9 +20,9 @@
   font-size: inherit;
 }
 .comm-history-header > button {
-    display: flex;
-    gap: .5em;
-    align-items: center;
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
   border: none;
   background-color: transparent;
   font-weight: inherit;

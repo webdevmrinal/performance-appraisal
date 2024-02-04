@@ -18,7 +18,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.esc-heading button{
+.esc-heading label{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,9 @@
     color: inherit;
     font-weight: inherit;
     width: fit-content;
-    margin: 0 auto;
+    place-self: end;
+    margin: 0 5em;
+    cursor: pointer;
 }
 .esc-details{
     display: grid;

@@ -4,7 +4,7 @@ import "../styles/CustomAccordion.css"
 
 function BasicExample() {
   return (
-    <Accordion defaultActiveKey="0" flush>
+    <Accordion flush>
       <Accordion.Item eventKey="0">
         <Accordion.Header>
           <span style={{fontWeight:'600', fontSize: "0.75em", color: "#6738d9" }}>

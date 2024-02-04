@@ -6,3 +6,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+.app-box{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 100px 1fr;
+}
+.app-header{
+  border-right: 2px solid #ebf2fc;
+  border-bottom: 2px solid #ebf2fc;
+}
+.app-sidebar input{
+  width: 50%;
+  height: 70%;
+  background-color: #ebf2fc;
+  margin: auto 1.5em;
+  border: none;
+  border-radius: 100px;
+  padding: 0 1em;
+  transform: translateY(20%);
+}

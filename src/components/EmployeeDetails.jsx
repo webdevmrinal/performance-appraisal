@@ -21,7 +21,7 @@ const EmployeeDetails = () => {
   });
 
   return (
-    <div className="component-container">
+    <div className="component-container" draggable>
       <div className="employee-detail-container">
         <div className="heading">Employee Details</div>
         <div className="details">
@@ -40,10 +40,11 @@ const EmployeeDetails = () => {
       <div className="esc-details-container">
         <div className="heading esc-heading">
           <span>Escalation Details</span>
-          <button>
+          <label htmlFor="file-upload">
             <TbFileUpload size={25} />
             Upload File
-          </button>
+          </label>
+          <input type="file" id="file-upload" style={{display:'none'}} />
         </div>
         <div className="esc-details">
           <div className="esc-details-item custom-select">
