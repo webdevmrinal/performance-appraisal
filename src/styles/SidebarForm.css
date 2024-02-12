@@ -1,0 +1,54 @@
+.sidebar-form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sidebar-form label,
+.sidebar-form textarea,
+.sidebar-form input,
+.sidebar-form select {
+  display: block;
+  width: 100%;
+  font-size: 0.8em;
+}
+.sidebar-form textarea {
+  resize: none;
+}
+.sidebar-form textarea,
+.sidebar-form input,
+.sidebar-form select {
+  border: 1px solid #ccc;
+  padding: 0.3em 0;
+}
+.group-input {
+  display: flex;
+  gap: 1em;
+}
+.group-input div {
+  width: 100%;
+}
+.bottom-button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 0;
+  border-top: 1px solid #ccc;
+}
+#add-button {
+  background-color: #aa82fd;
+  color: #fff;
+}
+.bottom-button button {
+  padding: 0.3em 1.5em;
+  margin: 0 0.5em;
+  border: 0;
+  background-color: transparent;
+  font-size: 0.8em;
+}
+.sidebar-form > div:not(:last-child) {
+  padding: 0 1em;
+}
+.sidebar-form > div:first-child {
+  padding-top: 1em;
+}
